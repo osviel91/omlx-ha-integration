@@ -1,9 +1,11 @@
 {
   "domain": "omlx_monitor",
   "name": "oMLX Monitor",
-  "codeowners": [],
+  "codeowners": ["@osviel91"],
   "config_flow": true,
   "documentation": "https://github.com/osviel91/omlx-ha-integration",
+  "issue_tracker": "https://github.com/osviel91/omlx-ha-integration/issues",
+  "integration_type": "device",
   "iot_class": "local_polling",
   "requirements": [],
   "version": "0.2.0"

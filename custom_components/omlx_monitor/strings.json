@@ -3,18 +3,18 @@
     "step": {
       "user": {
         "title": "oMLX Monitor",
-        "description": "Conecta con el panel admin de oMLX.",
+        "description": "Connect to the oMLX admin dashboard API.",
         "data": {
-          "url": "URL de oMLX",
-          "api_key": "API key principal"
+          "url": "oMLX URL",
+          "api_key": "Main API key"
         }
       }
     },
     "error": {
-      "cannot_connect": "No se pudo conectar o autenticar con oMLX."
+      "cannot_connect": "Could not connect or authenticate with oMLX."
     },
     "abort": {
-      "already_configured": "Esta instancia de oMLX ya está configurada."
+      "already_configured": "This oMLX instance is already configured."
     }
   },
   "entity": {
