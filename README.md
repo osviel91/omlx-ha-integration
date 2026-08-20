@@ -22,4 +22,6 @@ Use the oMLX server URL, for example `http://192.168.1.20:8000`, and the main oM
 
 ## Exposed sensors
 
-The integration exposes dashboard counters, speeds, active/waiting requests, loaded model count, model memory, and runtime cache usage. The `loaded_models` sensor also includes the active models and runtime cache payload as attributes.
+The integration exposes dashboard counters, speeds, active/waiting requests, loaded model count, process/model memory, memory pressure limits, and runtime cache usage.
+
+For every loaded model it also creates sensors for status, size, active/waiting/prefill/generation requests, current generation speed, idle time, TTL, SSD cache, memory cache, cache files, indexed blocks, and cache entries. The model status and cache sensors keep the raw oMLX payload as attributes.
