@@ -1,0 +1,38 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "oMLX Monitor",
+        "description": "Conecta con el panel admin de oMLX.",
+        "data": {
+          "url": "URL de oMLX",
+          "api_key": "API key principal"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "No se pudo conectar o autenticar con oMLX."
+    },
+    "abort": {
+      "already_configured": "Esta instancia de oMLX ya está configurada."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "total_prompt_tokens": { "name": "Total prefill tokens" },
+      "total_cached_tokens": { "name": "Cached tokens" },
+      "cache_efficiency": { "name": "Cache efficiency" },
+      "avg_prefill_tps": { "name": "Average prefill speed" },
+      "avg_generation_tps": { "name": "Average generation speed" },
+      "total_requests": { "name": "Total requests" },
+      "active_requests": { "name": "Active requests" },
+      "waiting_requests": { "name": "Waiting requests" },
+      "loaded_models": { "name": "Loaded models" },
+      "model_memory_used": { "name": "Model memory used" },
+      "model_memory_max": { "name": "Model memory max" },
+      "runtime_cache_ssd": { "name": "Runtime cache SSD" },
+      "runtime_cache_memory": { "name": "Runtime cache memory" },
+      "runtime_cache_files": { "name": "Runtime cache files" }
+    }
+  }
+}
